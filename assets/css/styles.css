@@ -344,6 +344,11 @@ img{
   background: none;
 }
 
+.button-portfolio{
+  color: var(--first-color);
+  font-size: 22px;
+}
+
 /*===== ABOUT =====*/
 .about__data{
   text-align: center;
@@ -410,7 +415,7 @@ img{
 
 /*===== SERVICES =====*/
 .services__data{
-  padding: 3rem 1rem;
+  padding: 2rem 1rem;
   background-color: #fff;
   border-color: .5rem;
   text-align: center;
@@ -461,6 +466,12 @@ img{
 
 .portfolio__data{
   padding: 1.5rem;
+}
+
+.portfolio__dados{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .portfolio__subtitle{
